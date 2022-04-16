@@ -8,8 +8,7 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "/dist/",
-    "!/dist/test/"
+    "/dist"
   ],
   "scripts": {
     "build": "tsc -p .",
