@@ -3,10 +3,6 @@ import { pipe } from 'fp-ts/function'
 import * as t from 'io-ts'
 import moment, { Moment } from 'moment-timezone'
 
-export interface MomentBrand {
-  readonly Moment: unique symbol
-}
-
 export const MomentFromString = new t.Type<Moment, string, unknown>(
   'MomentFromString',
   (s): s is Moment => typeof s === 'string' && moment.utc(s).isValid(),
