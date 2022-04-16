@@ -2,6 +2,7 @@
   "name": "io-ts-types-ext",
   "version": "0.2.1",
   "description": "Extension to io-ts-types",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "git@github.com:utkuufuk/io-ts-types-ext.git",
   "author": "Utku Ufuk <utkuufuk@gmail.com>",
