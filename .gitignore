@@ -1,0 +1,9 @@
+.env
+.eslintcache
+yarn-error.log
+yarn.lock
+/coverage
+/dist
+/node_modules
+/logs
+/.vscode
