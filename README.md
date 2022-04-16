@@ -8,6 +8,9 @@ Extension types and codecs for [`io-ts-types`](https://github.com/gcanti/io-ts-t
     - `yarn add io-ts-types-ext`
 
 ## Development
-- Build: `yarn`
-- Lint: `yarn lint`
-- Test: `yarn test`
+| | |
+|-|-|
+| Build     | `yarn`            |
+| Lint      | `yarn lint`       |
+| Test      | `yarn test`       |
+| Release   | `yarn publish`    |
