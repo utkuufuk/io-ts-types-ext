@@ -1,6 +1,6 @@
 {
   "name": "io-ts-types-ext",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extension to io-ts-types",
   "types": "dist/index.d.ts",
   "repository": "git@github.com:utkuufuk/io-ts-types-ext.git",
