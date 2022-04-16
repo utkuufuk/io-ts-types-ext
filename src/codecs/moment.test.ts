@@ -5,7 +5,7 @@ import moment from 'moment-timezone'
 import { MomentFromString } from './moment'
 
 describe('moment', () => {
-  const TEST_MOMENT_STR = '2022-12-22:01:23:45.000Z'
+  const TEST_MOMENT_STR = '2022-12-22T01:23:45.000Z'
 
   describe('MomentFromString', () => {
     it('encodes', () => {
