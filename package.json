@@ -2,11 +2,15 @@
   "name": "io-ts-types-ext",
   "version": "0.1.0",
   "description": "Extension to io-ts-types",
-  "main": "index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:utkuufuk/io-ts-types-ext.git",
   "author": "Utku Ufuk <utkuufuk@gmail.com>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "/dist/",
+    "!/dist/test/"
+  ],
   "scripts": {
     "build": "tsc -p .",
     "lint": "eslint --config .eslintrc.json --report-unused-disable-directives --ext .ts -- . && prettier --check src/**/*",
