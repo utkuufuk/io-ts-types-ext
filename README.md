@@ -1,4 +1,7 @@
 # io-ts-types-ext
+[![CI](https://github.com/utkuufuk/io-ts-types-ext/actions/workflows/ci.yml/badge.svg)](https://github.com/utkuufuk/io-ts-types-ext/actions/workflows/ci.yml)
+[![NPM](https://img.shields.io/npm/v/io-ts-types-ext.svg)](https://www.npmjs.com/package/io-ts-types-ext)
+
 Extension types and codecs for [`io-ts-types`](https://github.com/gcanti/io-ts-types)
 
 ## Installation
