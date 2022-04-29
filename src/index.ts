@@ -2,7 +2,7 @@ import * as t from 'io-ts'
 
 export * from './brands/positive'
 export * from './brands/unsigned'
-export * from './codecs/moment'
+export * from './codecs/date'
 export * from './codecs/positive-int'
 export * from './codecs/unsigned-int'
 
