@@ -15,6 +15,7 @@
     "build": "tsc -p .",
     "lint": "eslint --config .eslintrc.json --report-unused-disable-directives --ext .ts -- . && prettier --check src/**/*",
     "lint:fix": "eslint --config .eslintrc.json --report-unused-disable-directives --ext .ts --fix -- . && prettier --write src/**/*",
+    "release": "xyz --repo git@github.com:utkuufuk/io-ts-types-ext.git --branch master --increment",
     "test": "jest"
   },
   "peerDependencies": {
@@ -44,6 +45,7 @@
     "newtype-ts": "^0.3.5",
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "xyz": "^4.0.0"
   }
 }

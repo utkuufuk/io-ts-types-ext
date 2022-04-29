@@ -16,4 +16,16 @@ Extension types and codecs for [`io-ts-types`](https://github.com/gcanti/io-ts-t
 | Build     | `yarn`            |
 | Lint      | `yarn lint`       |
 | Test      | `yarn test`       |
-| Release   | `yarn publish`    |
+| Release   | `yarn release`    |
+
+### Releasing
+```sh
+# increment major version
+yarn release major
+
+# increment minor version
+yarn release minor
+
+# increment patch version
+yarn release patch
+```
