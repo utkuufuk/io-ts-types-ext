@@ -1,5 +1,5 @@
 import * as E from 'fp-ts/Either'
-import { pipe } from 'fp-ts/lib/function'
+import { pipe } from 'fp-ts/function'
 
 import { DateFromString } from './date'
 
@@ -32,9 +32,7 @@ describe('date', () => {
         new Date(TEST_DATE_STR),
         DateFromString.decode,
         E.fold(
-          _ => {
-            done()
-          },
+          _ => done(),
           _ => {
             throw new Error('Decode should have failed!')
           },
@@ -48,9 +46,7 @@ describe('date', () => {
         str,
         DateFromString.decode,
         E.fold(
-          _ => {
-            done()
-          },
+          _ => done(),
           _ => {
             throw new Error('Decode should have failed!')
           },
